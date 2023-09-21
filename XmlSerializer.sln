@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlSerializer.Core", "src\XmlSerializer.Core\XmlSerializer.Core.csproj", "{C9C05A2D-B23B-4F79-A8D6-735B273D0086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7217459-053F-4BF2-8E2E-6C09556A09C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlSerializer.SourceGenerator", "src\XmlSerializer.SourceGenerator\XmlSerializer.SourceGenerator.csproj", "{00FCFA90-7749-4A00-B214-F5D442A79D4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AEFB7C3E-C277-4ACC-846F-FE7790E4DA15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlSerializer.SourceGenerator.UnitTests", "Tests\XmlSerializer.SourceGenerator.UnitTests\XmlSerializer.SourceGenerator.UnitTests.csproj", "{212D5E47-0C03-41A9-804C-6F5A2F4576A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlSerializer.SourceGenerator.IntegrationTests", "Tests\XmlSerializer.SourceGenerator.IntegrationTests\XmlSerializer.SourceGenerator.IntegrationTests.csproj", "{599D3BC8-B475-4E50-9A5F-450DC35E94B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9C05A2D-B23B-4F79-A8D6-735B273D0086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C05A2D-B23B-4F79-A8D6-735B273D0086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C05A2D-B23B-4F79-A8D6-735B273D0086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C05A2D-B23B-4F79-A8D6-735B273D0086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FCFA90-7749-4A00-B214-F5D442A79D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FCFA90-7749-4A00-B214-F5D442A79D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FCFA90-7749-4A00-B214-F5D442A79D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FCFA90-7749-4A00-B214-F5D442A79D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212D5E47-0C03-41A9-804C-6F5A2F4576A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212D5E47-0C03-41A9-804C-6F5A2F4576A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212D5E47-0C03-41A9-804C-6F5A2F4576A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212D5E47-0C03-41A9-804C-6F5A2F4576A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599D3BC8-B475-4E50-9A5F-450DC35E94B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599D3BC8-B475-4E50-9A5F-450DC35E94B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599D3BC8-B475-4E50-9A5F-450DC35E94B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599D3BC8-B475-4E50-9A5F-450DC35E94B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9C05A2D-B23B-4F79-A8D6-735B273D0086} = {C7217459-053F-4BF2-8E2E-6C09556A09C2}
+		{00FCFA90-7749-4A00-B214-F5D442A79D4F} = {C7217459-053F-4BF2-8E2E-6C09556A09C2}
+		{212D5E47-0C03-41A9-804C-6F5A2F4576A7} = {AEFB7C3E-C277-4ACC-846F-FE7790E4DA15}
+		{599D3BC8-B475-4E50-9A5F-450DC35E94B5} = {AEFB7C3E-C277-4ACC-846F-FE7790E4DA15}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03C655BB-0251-4B7D-A87C-CCCDC59FA348}
+	EndGlobalSection
+EndGlobal

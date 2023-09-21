@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net7.0;net6.0;net48</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<PropertyGroup>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<!-- omit the package creating library itself -->
+		<PackProject>true</PackProject>
+	</PropertyGroup>
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net48'">
+		<Reference Include="Microsoft.CSharp" />
+		<Reference Include="System.ComponentModel.DataAnnotations" />
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+		<PackageReference Include="System.Text.Json" Version="7.0.2" />
+	</ItemGroup>
+</Project>
